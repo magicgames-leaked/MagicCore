@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/magicgames-leaked/MagicCore
+build-by-default: true
+branches:
+- sex
+projects:
+  MagicCore:
+    path: ""
+...
