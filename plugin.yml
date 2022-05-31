@@ -1,0 +1,101 @@
+name: MagicCore
+main: Pushkar\MagicCore\MagicCore
+version: 5.0.0
+api: 4.0.0
+author: ["Pushkar", "Bynamless", "Agtharn"]
+description: Core v5.0.0 Made For MagicGames
+
+permissions:
+  giveadminrank.cmd:
+    default: op
+  giverank.cmd:
+    default: op
+  voucher.cmd:
+    default: op
+  bits.cmd:
+    default: op
+  rankshop.cmd:
+    default: op
+  nick.cmd:
+    default: op
+  repair.cmd:
+    default: op
+  caui.cmd:
+    default: op
+  soon.cmd:
+    default: op
+  items.cmd:
+    default: op
+  feed.cmd:
+    default: op
+  heal.cmd:
+    default: op
+  skin.cmd:
+    default: op
+  vanish.cmd:
+    default: op
+  unvanish.cmd:
+    default: op
+  ci.cmd:
+    default: op
+  speed.cmd:
+     default: op
+  vision.cmd:
+     default: op
+  hub.cmd:
+     default: 
+  id.cmd:
+     default: true
+  invclear.cmd:
+     default: true
+  hide.cmd:
+     default: true
+  bazaar.cmd:
+     default: true
+  diana.cmd: 
+     default: true
+  warp.cmd:
+     default: true
+  liftui.cmd:
+     default: true
+  xyz.cmd:
+     default: true
+  settings.cmd:
+     default: true
+  servers.cmd:
+     default: true
+  enchantui.cmd:
+     default: true
+  tutorial.:
+     default: true
+  stafflist.cmd:
+     default: true
+  rules.cmd:
+     default: true
+  features.cmd:
+     default: true
+  changelog.cmd:
+     default: true
+  event.cmd:
+     default: true
+  announcement.cmd:
+     default: true
+  socialmedia.cmd:
+     default: true
+  tutorial.cmd:
+     default: true
+  rankshop.cmd:
+     default: true
+  recipe.cmd:
+     default: true
+  discord.cmd:
+     default: true
+  information.cmd:
+     default: true
+  ranklist.cmd:
+     default: true
+  size.cmd:
+     default: op
+  fly.cmd:
+     default: op
+  

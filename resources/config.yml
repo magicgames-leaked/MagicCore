@@ -1,0 +1,563 @@
+#███╗░░░███╗░█████╗░░██████╗░██╗░█████╗░░██████╗░░█████╗░███╗░░░███╗███████╗░██████╗
+#████╗░████║██╔══██╗██╔════╝░██║██╔══██╗██╔════╝░██╔══██╗████╗░████║██╔════╝██╔════╝
+#██╔████╔██║███████║██║░░██╗░██║██║░░╚═╝██║░░██╗░███████║██╔████╔██║█████╗░░╚█████╗░
+#██║╚██╔╝██║██╔══██║██║░░╚██╗██║██║░░██╗██║░░╚██╗██╔══██║██║╚██╔╝██║██╔══╝░░░╚═══██╗
+#██║░╚═╝░██║██║░░██║╚██████╔╝██║╚█████╔╝╚██████╔╝██║░░██║██║░╚═╝░██║███████╗██████╔╝
+#╚═╝░░░░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═╝░╚════╝░░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░
+
+#Load Worlds Likw Mining Pvp Worlds
+load-worlds: 
+ - "Arena"
+ - "Mining"
+ 
+#Tp To Hub When Join
+Hub-Spawn: false
+#Crash Rejoin
+Crash-Rejoin: true
+IP: "play.magicgamesmc.net"
+Port: "19132"
+
+  
+####################################################
+#Basic setup
+#
+# Use "\n" to add more lines!
+# Use "§" to add more colors!
+#
+#System menu Page:
+USE-CMD-INGAME: "§cPlease use this command in-game!"
+#==========================================
+#MAIN MENU PAGE:
+
+TITLE-MENU: "§3§l«§r §bINFORMATIONS §3§l»"
+
+CONTENT-MENU: "§eSelect the category listed below:"
+
+INFO-BTN-ONE: "§b§lABOUT\n§r§8Tap to check"
+INFO-BTN-TWO: "§a§lCHANGELOG\n§r§8Tap to check"
+INFO-BTN-THREE: "§3§lFEATURES\n§r§8Tap to check"
+INFO-BTN-FOR: "§c§lRULES\n§r§8Tap to check"
+INFO-BTN-FIVE: "§5§lSTAFF-LIST\n§r§8Tap to check"
+INFO-BTN-SIX: "§6§lTUTORIAL\n§r§8Tap to check"
+INFO-BTN-SEVEN: "§1§lRANK-LIST\n§r§8Tap to check"
+INFO-BTN-EIGHT: "§9§lSOCIAL-MEDIA\n§r§8Tap to check"
+INFO-BTN-NINE: "§6§lANNOUNCEMENTS\n§r§8Tap to check"
+INFO-BTN-TEN: "§5§lEVENT\n§r§8Tap to check"
+#
+#
+BACK-BTN: "§6§lBACK\n§r§8Tap to go back"
+EXIT-BTN: "§c§lEXIT\n§r§8Tap to exit"
+#
+#==========================================
+#Menu "INFO-BTN-ONE" (ABOUT)
+#
+TITLE-ABOUT: "§b§lABOUT §r§8(( MagicGames))"
+
+CONTENT-ABOUT: "§bHey you, do you know §eMagic§6Games§b? Let me introduce it to you!\n§eMagic§6Games§b is a Minecraft Bedrock Edition Server With Survival, Minigames,Skyblock server!\n\n§bAbove you can find there :\n§b- Survival\n§b- Minigames\n§b- Skyblock\n§b- Do Adventure With Your Friends\n§b- Fair Gameplay\n§b- Voting Crate, Get Keys Through Voting\n§b- Get Ranks And Perks\n§b- Buy Ranks With Ingame Money\n§b- No Pay To Win\n\n§bYou now have enough to get as much happiness as possible\n§bSo I convinced you? §bJoin us quickly!\n\n§eDiscord: https://discord.io/magicgames\n§eVote: https://bitly.com/vote-magic\n\n§eServer Ip: Play.MagicGames.gq\n§ePort: Coming Soon\n\n§bTo support us:\n§bVote Our Server\n§bAnd Dont Forget To Join Our Discord Too"
+#
+#==========================================
+#Menu "INFO-BTN-TWO" (CHANGELOG)
+#
+TITLE-CHANGELOG: "§a§lCHANGELOG §r§8(( MagicGames ))"
+
+CONTENT-CHANGELOG: "§a[+]Fixed Lag\n§a[+]Fixed A Bug In RankShop"
+#
+#==========================================
+#Menu "INFO-BTN-THREE" (FEATURES)
+#
+TITLE-FEATURES: "§3§lFEATURES\n§r§8Tap to check"
+
+CONTENT-FEATURES: "§aThis server is nice ;)!"
+#
+#==========================================
+#Menu "INFO-BTN-FOR" (RULES)
+#
+TITLE-RULES: "§c§lRULES §r§8(( MagicGames ))"
+
+CONTENT-RULES: "§cTreat others with respect.\n§cHacking is not tolerated.\n§cOffensive content is not allowed.\n§cKeep chat family friendly.\n§cAdvertising is not allowed.\n§cSpamming is not allowed."
+#
+#==========================================
+#Menu "INFO-BTN-FIVE" (STAFF-LIST)
+#
+TITLE-STAFFLIST: "§5§lSTAFF-LIST"
+
+CONTENT-STAFFLIST: "§aPushkarMCPE5031 §b§l-§r §7[FOUNDER+OWNER]\n§aGeneral SOL §b§l-§r §7[OWNER]\n§aDivyam §b§l-§r §7[OWNER]\n§aProLegend §b§l-§r §7[ADMIN]\n§aNonviriginit §b§l-§r §7[ADMIN]\n§aNeil §b§l-§r §7[HELPER]"
+#
+#==========================================
+#Tutorial Menu PAGE!
+#
+TUTORIAL-TITLE-MENU: "§6§lTUTORIAL"
+
+TUTORIAL-CONTENT-MENU: "§eSelect the tutorial listed down below:"
+#
+#===
+#Tutorial page
+#
+TUTORIAL-ONE-BTN: "§6§lTUTORIAL §a#1\n§r§8Tap to check"
+TUTORIAL-TWO-BTN: "§6§lTUTORIAL §a#2\n§r§8Tap to check"
+TUTORIAL-THREE-BTN: "§6§lTUTORIAL §a#3\n§r§8Tap to check"
+TUTORIAL-FOR-BTN: "§6§lTUTORIAL §a#4\n§r§8Tap to check"
+TUTORIAL-FIVE-BTN: "§6§lTUTORIAL §a#5\n§r§8Tap to check"
+#
+#==========================================
+#TUTORIAL #1
+#
+TUTORIAL-ONE-TITLE: "§6§lTUTORIAL §a#1"
+
+TUTORIAL-ONE-CONTENT: "§eComming soon"
+#
+#=========================================
+#TUTORIAL #2
+#
+TUTORIAL-TWO-TITLE: "§6§lTUTORIAL §a#2"
+
+TUTORIAL-TWO-CONTENT: "§eComming soon"
+#
+#=========================================
+#TUTORIAL #3
+#
+TUTORIAL-THREE-TITLE: "§6§lTUTORIAL §a#3"
+
+TUTORIAL-THREE-CONTENT: "§eComming soon"
+#
+#=========================================
+#TUTORIAL #4
+#
+TUTORIAL-FOR-TITLE: "§6§lTUTORIAL §a#4"
+
+TUTORIAL-FOR-CONTENT: "§eComming soon"
+#
+#=========================================
+#TUTORIAL #5
+#
+TUTORIAL-FIVE-TITLE: "§6§lTUTORIAL §a#5"
+
+TUTORIAL-FIVE-CONTENT: "§cComing Soon"
+#
+#=========================================
+#RANK list 
+#
+RL-TITLE-MENU: "§1§lRANK-LIST"
+
+RL-CONTENT-MENU: "§cSelect the rank lodted down below:"
+#
+#===
+#set the ranklist button menu
+#
+RL-BTN-ONE: "§eVIP\n§r§8Tap to check"
+RL-BTN-TWO: "§eVIP§a+\n§r§8Tap to check"
+RL-BTN-THREE: "§bMVP\n§r§8Tap to check"
+RL-BTN-FOR: "§bMVP§c+\n§r§8Tap to check"
+RL-BTN-FIVE: "§bMVP§c++\n§r§8Tap to check"
+RL-BTN-SIX: "§cYOUTUBE\n§r§8Tap to check"
+#
+#=========================================
+#Ranklist menu #1 
+RL-ONE-TITLE: "§eVIP"
+RL-TWO-CONTENT: "§aVIP Rank Features §eMagic§6Games\n§a» §e/fly\n§a» §e/heal\n§a» §e/feed\n§a» §e/cape\n\n§cBonus\n§a» PlayerVaults 1-2\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n\n§aWant To Buy Rank?\n§aJoin In Discord And Make Ticket\n§a» §bhttps://discord.io/magicgames\n\n§ePrice\n§a» §e300k OwO\n§a» §e$1"
+
+#
+#=========================================
+#Ranklist menu #2 
+RL-TWO-TITLE: "§eVIP §a+"
+RL-ONE-CONTENT: "§aVIP§c+ §aRank Features §eMagic§6Games\n§a» §e/fly\n§a» §e/heal\n§a» §e/feed\n§a» §e/feed\n§a» §e/cape\n§a» §e/me\n\n§cBonus\n§a» PlayerVaults 1-4\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To VIP§c+§aKIT\n\n§aWant To Buy Rank?\n§aJoin In Discord And Make Ticket\n§a» §bhttps://discord.io/magicgames\n\n§ePrice\n§a» §e400k OwO\n§a» §e$2"
+#
+#=========================================
+#Ranklist menu #3 
+RL-THREE-TITLE: "§bMVP"
+
+RL-THREE-CONTENT: "§bMVP §aRank Features §eMagic§6Games\n§a» §e/fly\n§a» §e/heal\n§a» §e/feed\n§a» §e/feed\n§a» §e/cape\n§a» §e/vision\n§a» §e/me\n§a» §e/skin\n§a» §e/say\n\n§cBonus\n§a» PlayerVaults 1-6\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To MEMBER KIT\n§a» Access To §bVIP+§a KIT\n\n§aWant To Buy Rank?\n§aJoin In Discord And Make Ticket\n§a» §bhttps://discord.io/magicgames\n\n§ePrice\n§a» §e600k OwO\n§a» §e$3"
+#
+#=========================================
+#Ranklist menu #4
+RL-FOR-TITLE: "§bMVP §c+"
+
+RL-FOR-CONTENT: "§bMVP§c+ §aRank Features §eMagic§6Games\n§a» §e/fly\n§a» §e/heal\n§a» §e/feed\n§a» §e/feed\n§a» §e/cape\n§a» §e/me\n§a» §e/vision\n§a» §e/skin\n§a» §e/say\n§a» §e/god\n§a» §e/size\n§a» §e/repair\n\n§cBonus\n§a» PlayerVaults 1-8\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To VIP+ KIT\n§a» Access To MVP KIT\n§a» Access To §bMVP§c+§a KIT\n\n§aWant To Buy Rank?\n§aJoin In Discord And Make Ticket\n§a» §bhttps://discord.io/magicgames\n\n§ePrice\n§a» §e800k OwO\n§a» §e$4"
+#
+#=========================================
+#Ranklist menu #5
+RL-FIVE-TITLE: "§bMVP §c++"
+
+RL-FIVE-CONTENT: "§bMVP§e+§c+ §aRank Features §eMagic§6Games\n§a» §e/fly\n§a» §e/heal\n§a» §e/feed\n§a» §e/feed\n§a» §e/cape\n§a» §e/me\n§a» §e/skin\n§a» §e/say\n§a» §e/god\n§a» §e/size\n§a» §e/repair\n§a» §e/tp\n§a» §e/nick\n§a» §e/vision\n§a» §e/speed\n§a» §e/pets\n§a» §e/vanish\n\n§cBonus\n§a» PlayerVaults 1-10\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To VIP+ KIT\n§a» Access To MVP KIT\n§a» Access To MVP+ KIT\n§a» Access To §bMVP§e+§c+§a KIT\n\n§aWant To Buy Rank?\n§aJoin In Discord And Make Ticket\n§a» §bhttps://discord.io/magicgames\n\n§ePrice\n§a» §e1M OwO\n§a» §e$5"
+#
+#=========================================
+#Ranklist menu #6
+RL-SIX-TITLE: "§cYOUTUBE"
+
+RL-SIX-CONTENT: "§cYOUTUBE §aRank Features §eMagic§6Games\n§a» §e/fly\n§a» §e/heal\n§a» §e/feed\n§a» §e/feed\n§a» §e/cape\n§a» §e/me\n§a» §e/skin\n§a» §e/say\n§a» §e/vanish\n§a» §e/vision\n§a» §e/pets\n§a» §e/repair\n\n§cBonus\n§a» PlayerVaults 1-8\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To VIP+ KIT\n§a» Access To §cYOUTUBE§a KIT\n\n§aWant To Get This Rank?\n§aJoin In Discord And Make Ticket\n§a» §bhttps://discord.io/magicgames\n\n§eRequirement:\n§a» §e300subs\n§a» §eMust Make 1 Video On Server"
+#
+#=========================================
+#Social media menu
+#
+SM-TITLE-MENU: "§9§lSOCIAL MEDIA"
+
+SM-CONTENT-MENU: "§aMagicGames Social Media"
+#
+#===
+#the socialmedia page button menu
+#
+SM-BTN-ONE: "§1§lDISCORD\n§r§8Tap to check"
+SM-BTN-TWO: "§b§lTWITTER\n§r§8Tap to check"
+SM-BTN-THREE: "§a§lWHATSAPP\n§r§8Tap to check"
+SM-BTN-FOR: "§d§lINSTAGRAM\n§r§8Tap to check"
+SM-BTN-FIVE: "§4§lYOUTUBE\n§r§8Tap to check"
+#
+#==========================================
+#menu SM-BTN-ONE config
+#
+SM-ONE-TITLE: "§1§lDISCORD"
+
+SM-ONE-CONTENT: "https://discord.io/magicgames"
+#
+#==========================================
+#menu SM-BTN-TWO config
+#
+SM-TWO-TITLE: "§b§lTWITTER"
+
+SM-TWO-CONTENT: "§bCOMMING SOON"
+#
+#==========================================
+#menu SM-BTN-THREE config
+#
+SM-THREE-TITLE: "§a§lWHATSAPP"
+
+SM-THREE-CONTENT: "§7§oCOMMING SOON"
+#
+#==========================================
+#menu SM-BTN-FOR
+#
+SM-FOR-TITLE: "§d§lINSTAGRAM"
+
+SM-FOR-CONTENT: "§7§ofollow meh on insta §a@Me._.Pushkar"
+#
+#==========================================
+#menu SM-BTN-FIVE
+#
+SM-FIVE-TITLE: "§4§lYOUTUBE"
+
+SM-FIVE-CONTENT: "§bSUBSCRIBE PUSHKAR GAMING"
+#
+#==========================================
+#Announcement menu
+#
+TITLE-ANNOUNCEMENT: "§6§lANNOUNCEMENT §r§8(( MagicGames ))"
+#
+CONTENT-ANNOUNCEMENT: " §eNo Announcement Today!"
+#
+#==========================================
+#Event menu
+#
+TITLE-EVENT: "§5§lEVENT §r§8(( MagicGames ))"
+#
+CONTENT-EVENT: "§5§lEVENT LIST:\n§r§bEvent: §r\n§7No Event Today!"
+#==========================================
+######## RankShop ##########
+member.feature: "§aMEMBER Rank Features §eMagic§6Games\n\n§cBonus\n§a» PlayerVaults 1\n§a» Access To MEMBER KIT\n\n§aThis Is A Default Rank"
+voter.feature: "§aVOTER Rank Features §eMagic§6Games\n§a» §e/heal\n§a» §e/feed\n\n§cBonus\n§a» You Will Get 3x Vote Keys\n§a» PlayerVaults 1\n§a» You Will Get §b$10000§r\n§a» Access To MEMBER KIT\n\n§aWant To Get This Rank?\n§aVote Us On Mcpe Website\n§a» §bhttps://bitly.com/mg-vote"
+youtube.feature: "§cYOUTUBE §aRank Features §eMagic§6Games\n§a» §e/fly\n§a» §e/heal\n§a» §e/feed\n§a» §e/feed\n§a» §e/cape\n§a» §e/me\n§a» §e/skin\n§a» §e/say\n§a» §e/vanish\n§a» §e/vision\n§a» §e/pets\n§a» §e/repair\n\n§cBonus\n§a» PlayerVaults 1-8\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To VIP+ KIT\n§a» Access To §cYOUTUBE§a KIT\n\n§aWant To Get This Rank?\n§aJoin In Discord And Make Ticket\n§a» §bhttps://discord.io/magicgames\n\n§eRequirement:\n§a» §e300subs\n§a» §eMust Make 1 Video On Server"
+#VIP RANK 
+vip.name: VIP
+vip.cost: 5000000
+vip.buy: "§bWould You Like To Purchase §aVIP Rank\n\n§bPrice » §e{cost}"
+vip.complete: "§f[§eMagic§6Games§f] §aSuccess, You Successfully Purchased VIP Rank!"
+vip.error: "§f[§eMagic§6Games§f] §cFailed, You Don't Have Enough Money To Buy VIP Rank!"
+vip.title: "§6»§2VIP§6«"
+vip.feature: "§aVIP Rank Features §eMagic§6Games\n§a» §e/heal\n§a» §e/feed\n§a» §e/cape\n§a» §e/craft\n\n§cBonus\n§a» PlayerVaults 1-2\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n\n§l§ePRICE: §e$2\n§r§aWant To Buy Rank?\n§aVisit https://magicgames.tebex.io"
+vip.cmd: "temprank set \"{player}\" VIP 30d"
+#VIP+ RANK
+vip+.name: Vip+
+vip+.cost: 8000000
+vip+.buy: "§bWould You Like To Purchase §aVIP§c+ Rank\n\n§bPrice » §e{cost}"
+vip+.complete: "§f[§eMagic§6Games§f] §aSuccess, You Successfully Purchased VIP+ Rank!"
+vip+.error: "§f[§eMagic§6Games§f] §cFailed, You Don't Have Enough Money To Buy VIP+ Rank!"
+vip+.title: "§6»§2VIP§c+§6«"
+vip+.feature: "§aVIP§c+ §aRank Features §eMagic§6Games\n§a» §e/heal\n§a» §e/feed\n§a» §e/craft\n§a» §e/cape\n§a» §e/emoji\n\n§cBonus\n§a» PlayerVaults 1-4\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To VIP§c+§aKIT\n\n§l§ePRICE: §e$3\n§r§aWant To Buy Rank?\n§aVisit https://magicgames.tebex.io"
+vip+.cmd: "temprank set \"{player}\" VIPPLUS 30d"
+#MVP RANK
+mvp.name: MVP
+mvp.cost: 10000000
+mvp.buy: "§bWould You Like To Purchase §bMVP Rank\n\n§bPrice » §e{cost}"
+mvp.complete: "§f[§eMagic§6Games§f] §aSuccess, You Successfully Purchased mvp Rank!"
+mvp.error: "§f[§eMagic§6Games§f] §cFailed, You Don't Have Enough Money To Buy mvp Rank!"
+mvp.title: "§6»§2MVP§6«"
+mvp.feature: "§bMVP §aRank Features §eMagic§6Games\n§a» §e/heal\n§a» §e/feed\n§a» §e/craft\n§a» §e/cape\n§a» §e/emoji\n§a» §e/size\n§a» §e/speed\n§a» §e/repair\n\n§cBonus\n§a» PlayerVaults 1-6\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To MEMBER KIT\n§a» Access To §bVIP+§a KIT\n\n§l§ePRICE: §e$5\n§r§aWant To Buy Rank?\n§aVisit https://magicgames.tebex.io" 
+mvp.cmd: "temprank set \"{player}\" MVP 30d"
+#MVP+
+mvp+.name: Mvp+
+mvp+.cost: 13000000
+mvp+.buy: "§bWould You Like To Purchase §bMVP§c+ Rank\n\n§bPrice » §e{cost}"
+mvp+.complete: "§f[§eMagic§6Games§f] §aSuccess, You Successfully Purchased mvp+ Rank!"
+mvp+.error: "§f[§eMagic§6Games§f] §cFailed, You Don't Have Enough Money To Buy mvp+ Rank!"
+mvp+.title: "§6»§2MVP§c+§6«"
+mvp+.feature: "§bMVP§c+ §aRank Features §eMagic§6Games\n§a» §e/heal\n§a» §e/feed\n§a» §e/craft\n§a» §e/cape\n§a» §e/emoji\n§a» §e/size\n§a» §e/skin\n§a» §e/speed\n§a» §e/vision\n§a» §e/repair\n\n§cBonus\n§a» PlayerVaults 1-8\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To VIP+ KIT\n§a» Access To MVP KIT\n§a» Access To §bMVP§c+§a KIT\n\n§l§ePRICE: §e$8\n§r§aWant To Buy Rank?\n§aVisit https://magicgames.tebex.io" 
+mvp+.cmd: "temprank set \"{player}\" MVPPLUS 30d"
+#MVP++
+mvp++.name: Mvp++
+mvp++.cost: 16000000
+mvp++.buy: "§bWould You Like To Purchase §bMVP§e+§c+ Rank\n\n§bPrice » §e{cost}"
+mvp++.complete: "§f[§eMagic§6Games§f] §aSuccess, You Successfully Purchased mvp++ Rank!"
+mvp++.error: "§f[§eMagic§6Games§f] §cFailed, You Don't Have Enough Money To Buy mvp++ Rank!"
+mvp++.title: "§6»§2MVP§e+§c+§6«"
+mvp++.feature: "§bMVP§e+§c+ §aRank Features §eMagic§6Games\n§a» §e/pets\n§a» §e/heal\n§a» §e/feed\n§a» §e/craft\n§a» §e/cape\n§a» §e/emoji\n§a» §e/size\n§a» §e/speed\n§a» §e/vision\n§a» §e/repair\n§a» §e/skin\n\n§cBonus\n§a» PlayerVaults 1-10\n§a» Access To MEMBER KIT\n§a» Access To VIP KIT\n§a» Access To VIP+ KIT\n§a» Access To MVP KIT\n§a» Access To MVP+ KIT\n§a» Access To §bMVP§e+§c+§a KIT\n\n§l§ePRICE: §e$10\n§r§aWant To Buy Rank?\n§aVisit https://magicgames.tebex.io"
+mvp++.cmd: "temprank set \"{player}\" MVPPLUSPLUS 30d"
+
+# How much money will the victi'sm lose when they die? Type Options: "all", "half", "percent", "amount"
+# all = Removes all of the victim's Money when they die
+# half = Removes half of the victim's Money when they die  
+# percent = Removes a percentage of the victim's money. Example, If Money-Loss = 25, 25% of the victim's money will be removed
+# amount = Removed the specified amount of money. Example, If Money-Loss = 25, the victim's will lost $25.
+
+Void-Money-Lose: true
+
+Death-Money-Lose: true
+
+Type: percent
+
+# Money-Loss: does not need to be set if Type: is set to "all" or "half"
+Money-Loss: 25
+
+# Should the victim lose money if they are not killed by another player
+LoseMoneyNaturally: false
+
+# Should the killer gain the money the victim lost?
+KillerGainMoney: true
+
+
+#First Join Command Inventory Armor should be enabled or not
+First-Join: true
+
+First-Join-Command:
+ - "minion give {player} mining 4"
+# set it to false to deactivate the Amor!
+Armor: true
+# id = This is the ItemID
+# name = Set a Custom Name for the Item
+# lore = Set a Lore for a sign for the Item
+helm:
+  id: 298
+  name: §6StarterHelemt
+  lore: Welcome to MagicGames!
+chest:
+  id: 299
+  name: §6StarterChestplate
+  lore: Welcome to MagicGames!
+leggins:
+  id: 300
+  name: §6Starter Leggings
+  lore: Welcome to MagicGames!
+boots:
+  id: 301
+  name: §6Starter Boots
+  lore: Welcome to MagicGames!
+
+# set it to false to deactivate the Inventory!
+Inventory: true
+
+ # - slot: <- Set the Slot wo are the Item Place (0-35)
+ #   id: <- set the ItemID of the Item
+ #   damage: <- set the damage of the Item
+ #   count: <- set the amount of the Item
+ #   name: <- set a Customname for the Item
+ #   lore: <- set the Lore of the Item
+
+Slots:
+  - slot: 1
+    id: 272
+    damage: 0
+    count: 1
+    name: Starter Sword
+    lore: Welcome to MagicGames!
+
+  - slot: 2
+    id: 275
+    damage: 0
+    count: 1
+    name: Starter Axe
+    lore: Welcome to MagicGames!
+
+  - slot: 3
+    id: 274
+    damage: 0
+    count: 1
+    name: Starter Pickaxe
+    lore: Welcome to MagicGames!
+
+  - slot: 4
+    id: 273
+    damage: 0
+    count: 1
+    name: Starter Shovel
+    lore: Welcome to MagicGames!
+
+  - slot: 5
+    id: 320
+    damage: 0
+    count: 32
+    name: Porkchop
+    lore: Welcome to MagicGames!
+
+  - slot: 9
+    id: 264
+    damage: 0
+    count: 8
+    name: Diamond
+    lore: Welcome to MagicGames!
+
+  - slot: 6
+    id: 8
+    damage: 0
+    count: 2
+    name: Water Bucket
+    lore: Welcome to MagicGames!
+    
+  - slot: 7
+    id: 10
+    damage: 0
+    count: 2
+    name: Lava Bucket
+    lore: Welcome to MagicGames!
+    
+# Mode can be either "whitelist" or "blacklist"
+# whitelist ensures that AutoPickup is only active in the worlds entered below
+# blacklist ensures that AutoPickup is deactivated in the worlds entered below
+pickup: true
+# ^^ true/false
+pickupmode: blacklist
+# Set whitelist/blacklist worlds here
+pickupworlds:
+  - placeholder
+
+# Set a pop-up message here that appears when the player's inventory is full.
+# Leave blank to disable pop-up messages
+pickup-full-inventory: '§eInventory Full'
+
+# true : Prevents players from losing items on death
+# false : Players from losing items on death
+KeepInventory: true
+
+# all : Prevents players from losing items on death in all worlds
+# whitelist : Prevents players from losing items on death in worlds listed below
+# blacklist : Prevents players from losing items on death in all worlds that are not listed below
+KeepInventory-Mode: blacklist
+KeepInventory-Worlds: ["Arena"]
+# Worlds: ["world1", "world2"]
+
+#   Default Config:
+#      onJoin-FlyReset: true
+#      onDamage-FlyReset: true
+#      fly-enabled: "Flight mode activated"
+#      fly-disabled: "Flight mode deactivated"
+#      multi-world: "off"
+#      worlds:
+#       - "world"
+
+# The below config allows the plugin to reset flight mode when joining the server
+onJoin-FlyReset: true
+
+# The below config allows the plugin to reset flight mode when pvping in the server
+onDamage-FlyReset: true
+
+# The below config allows you to send a message to the player when they enable fly
+fly-enabled: "§aFlight mode activated"
+
+# The below config allows you to send a message to the player when they disable fly
+fly-disabled: "§cFlight mode deactivated"
+
+#Warps
+pvp-world: "Arena"
+pvp-x: "0"
+pvp-y: "79"
+pvp-z: "0"
+
+forest-world: "MagicGames"
+forest-x: "-279"
+forest-y: "82"
+forest-z: "-12"
+
+mine-world: "Mining"
+mine-x: "-300"
+mine-y: "111"
+mine-z: "107"
+
+farm-world: "MagicGames"
+farm-x: "115"
+farm-y: "71"
+farm-z: "-211"
+
+grave-world: "MagicGames"
+grave-x: "-104"
+grave-y: "72"
+grave-z: "-137"
+
+end-world: "MagicGames"
+end-x: "-608"
+end-y: "22"
+end-z: "-275"
+
+nether-world: "MagicGames"
+nether-x: "-309"
+nether-y: "83"
+nether-z: "-385"
+
+crates-world: "MagicGames"
+crates-x: "4"
+crates-y: "73"
+crates-z: "-107"
+
+leaderboard-world: "MagicGames"
+leaderboard-x: "4"
+leaderboard-y: "73"
+leaderboard-z: "152"
+
+iron-world: "Mining"
+iron-x: "-349"
+iron-y: "100"
+iron-z: "137"
+
+gold-world: "Mining"
+gold-x: "-349"
+gold-y: "100"
+gold-z: "137"
+
+lapis-world: "Mining"
+lapis-x: "-359"
+lapis-y: "84"
+lapis-z: "137"
+
+redstone-world: "Mining"
+redstone-x: "-359"
+redstone-y: "69"
+redstone-z: "137"
+
+emerald-world: "Mining"
+emerald-x: "-359"
+emerald-y: "53"
+emerald-z: "137"
+
+diamond-world: "Mining"
+diamond-x: "-359"
+diamond-y: "30"
+diamond-z: "137"
+
+obsidian-world: "Mining"
+obsidian-x: "-359"
+obsidian-y: "14"
+obsidian-z: "137"
+  
+Anvil-Ui: true
+
+log-webhook-url: "https://discord.com/api/webhooks/976331900899717130/ai9F82EUk7fJH0Yklfo1aKKeCsHaVlOtEaDoJHaC_Mu3pOAKmqzDl4NmGOkxBNPK_FpR"
+#Servers Form
+hubserver.cmd: "" 
+fireserver.cmd: ""
+iceserver.cmd: ""
+earthserver.cmd: ""
+survivalserver.cmd: ""
+Vote-Voucher-Command: "temprank set \"{player}\" Voter 12h"
+youtubegiverank.cmd: "temprank set \"{player}\" YouTube 90d"
+boostonegiverank.cmd: "temprank set \"{player}\" VIPPLUS 15d"
+boosttwogiverank.cmd: "temprank set \"{player}\" MVP 15d"
+admingiverank.cmd: "temprank set \"{player}\" Admin 30d"
+modgiverank.cmd: "temprank set \"{player}\" Mod 30d"
+helpergiverank.cmd: "temprank set \"{player}\" Helper 30d"
+removerank.cmd: "temprank remove \"{player}\""
