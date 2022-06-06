@@ -2,7 +2,7 @@ name: MagicCore
 main: Pushkar\MagicCore\MagicCore
 version: 5.0.0
 api: 4.0.0
-author: ["Pushkar", "Bynamless", "Agtharn"]
+authors: ["Pushkar", "Bynamless", "Agtharn"]
 description: Core v5.0.0 Made For MagicGames
 
 permissions:
